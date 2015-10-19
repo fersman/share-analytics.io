@@ -9,9 +9,6 @@ var lambda = new aws.Lambda({
 	accessKeyId: 'AKIAIBZXUL4J7DZ64O7A',
 	secretAccessKey: '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',
 
-	// For every request in this demo, I'm going to be using the same QueueUrl; so,
-	// rather than explicitly defining it on every request, I can set it here as the
-	// default QueueUrl to be automatically appended to every request.
 	params: {
 		FunctionName: 'searchSocialCronBatch', /* required */
 		InvocationType: 'Event',

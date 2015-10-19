@@ -1,0 +1,19 @@
+{
+  "name": "analytics-share",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.2.10",
+    "knex": "^0.8.6",
+    "mysql": "^2.9.0",
+    "node-lambda": "0.1.5",
+    "node-uuid": "^1.4.3",
+    "q": "^1.4.1",
+    "request": "^2.65.0"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  }
+}

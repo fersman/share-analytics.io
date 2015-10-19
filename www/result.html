@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Link name | Share analytics</title>
+		<meta name="description" content="Share analytics for your links! Provides information and graph based on social networks data." />
+		<meta name="keywords" content="social analytics, social, analytics, viral, link" />
+		<meta name="author" content="Share Analytics" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class="results">
+		<div class="container">
+			<div class="row header">
+				<div class="col-md-12">
+					<h1>How are you doing on social networks?</h1>
+					<span>Dashboard | <a href="index.html">Analyze another link</a></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 facebook">
+					<span>Facebook likes</span>
+					<h3><i class="fa fa-icon fa-facebook-official"></i> <span id="facebook"></span></h3>
+				</div>
+				<div class="col-md-3 twitter">
+					<span>Twitter tweets</span>
+					<h3><i class="fa fa-icon fa-twitter"></i> <span id="twitter"></span></h3>
+				</div>
+				<div class="col-md-3 google">
+					<span>Google +1</span>
+					<h3><i class="fa fa-icon fa-google-plus"></i> <span id="google"></span></h3>
+				</div>
+				<div class="col-md-3 linkedin">
+					<span>LinkedIn shares</span>
+					<h3><i class="fa fa-icon fa-linkedin-square"></i> <span id="linkedin"></span></h3>
+				</div>
+			</div>
+			<div class="row graph">
+				<div class="col-md-12">
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+
+			<footer>
+				<p>&copy; 2015 Share Analytics created during 30 hours at RockAway AWS Hackathon.</p>
+			</footer>
+		</div>
+
+		<script src="js/animate.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="js/result.js"></script>
+		<script src="js/Chart.min.js"></script>
+	</body>
+</html>
